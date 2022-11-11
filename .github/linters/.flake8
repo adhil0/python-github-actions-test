@@ -1,0 +1,4 @@
+[flake8]
+; Fix incompatibilities with Black & Ignore Line Length
+max-line-length = 88
+extend-ignore = E203, E501
