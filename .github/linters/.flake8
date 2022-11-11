@@ -1,6 +1,4 @@
 [flake8]
-; Fix incompatibilities with Black
+; Fix incompatibilities with Black & Ignore Line Length
 max-line-length = 88
-extend-ignore = E203
-; Ignore Line Length
-extend-ignore = E501
+extend-ignore = E203, E501
